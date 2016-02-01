@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 主页的抬头 -->
+    <dimen name="action_bar_height">50dp</dimen>
+    <!-- 左侧滑栏的阴影边距 -->
+    <dimen name="shadow_width">5dp</dimen>
+    <dimen name="slidingmenu_width">200dip</dimen>
+
+    <!-- 登录、注册的edittext -->
+    <dimen name="login_et_width">240dip</dimen>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dip"
+    android:background="@drawable/icon_bg"
+    android:orientation="vertical"
+    android:padding="15dip" >
+
+    <TextView
+        android:id="@+id/strategy_question_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂时没有问题"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/strategy_question_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0人回答"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/strategy_question_cares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0人关注"
+            android:layout_marginLeft="10dip"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

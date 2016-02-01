@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/write"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/newphone_psw_et"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:hint="@string/please_send_login_psw"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/newphone_tel_et"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:hint="@string/please_send_new_phone"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/newphone_get_code"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/get_commit"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/newphone_code_et"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:hint="@string/the_code"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/newphone_done"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:text="@string/done" />
+
+</LinearLayout>

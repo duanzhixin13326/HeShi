@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/write"
+    android:orientation="vertical" >
+
+    <include layout="@layout/action_bar_main" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/black" />
+
+    <EditText
+        android:id="@+id/write_inspiration_et"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@color/write"
+        android:cursorVisible="false"
+        android:gravity="top"
+        android:hint="有什么想说的"
+        android:textColor="@color/black"
+        android:textColorHint="@color/main_gray" />
+
+    <RelativeLayout
+        android:id="@+id/write_inspiration_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/write_under"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dip"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/under"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/write_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/camera"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/write_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@id/write_camera"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/picture"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/write_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@id/write_picture"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/write_check"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@id/write_cancel"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="@string/check"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</LinearLayout>

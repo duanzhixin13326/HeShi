@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/write"
+    android:orientation="vertical" >
+
+    <include layout="@layout/action_bar_main" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/black" />
+
+    <EditText
+        android:id="@+id/register_telephone_et"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:hint="@string/telephone_num"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/register_get_code"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/get_commit"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/register_thecode_et"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:hint="@string/the_code"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/register_password_et"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/register_done"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip"
+        android:text="@string/registered" />
+
+    <TextView
+        android:id="@+id/register_to_login"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="50dip"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/register_to_login" />
+
+</LinearLayout>

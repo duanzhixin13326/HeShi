@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <!-- 白色 -->
+    <color name="write">#ffffff</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 棕色 -->
+    <color name="brown">#A52A2A</color>
+    <!-- 主界面：灰色 -->
+    <color name="main_gray">#99000000</color>
+    <!-- 主界面：灰蓝色 -->
+    <color name="main_gray_blue">#104E8B</color>
+    <!-- 淡蓝色 -->
+    <color name="sky_blue">#87CEFA</color>
+    <!-- 主界面，点击事件 -->
+    <color name="main_textColor_selected">#FF1C94EA</color>
+    <color name="main_textColor_unselected">#FFDCE0DF</color>
+    <!-- 注册界面，点击获取验证码 -->
+    <color name="check_text">#28c1e9</color>
+
+</resources>
